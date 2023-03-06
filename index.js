@@ -45,3 +45,19 @@ arrayOfLanguages.unshift("Scala", "Swift")
 console.log(arrayOfLanguages)
 arrayOfLanguages.splice(4, 1, "Go", "Rust")
 console.log(arrayOfLanguages)
+// 3.What will be the value of fruit after calling the function changeFruit?
+
+// - let fruit = ['apple', 'mango', 'banana'];
+//   function changeFruit( fruit ) {
+//   fruit[2] = "orange";
+//   return fruit;
+//   }
+
+let fruit = ['apple', 'mango', 'banana'];
+  function changeFruit(fruit) {
+  fruit[2] = "orange";
+  return fruit;
+  }
+  let futa = changeFruit(fruit)
+  console.log(futa)
+// Output =  [ 'apple', 'mango', 'orange' ]
