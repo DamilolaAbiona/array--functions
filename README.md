@@ -22,3 +22,11 @@
 - array.slice()
 - array.toString()
 - array.toLocaleString().
+
+2. Here is an array of languages: ["C#", ‘JavaScript’, ‘Ruby’, ‘PHP’, ‘Python’]. Perform this operation on them
+
+- Add ‘Kotlin’ to the end of the array
+- Add ‘Java’ after ‘Ruby’
+- Remove the first item in the array
+- Add ’Scala’ and ‘Swift’ to the beginning of the array
+- Replace ‘PHP’ with ‘Go’ and ‘Rust’
