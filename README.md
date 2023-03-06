@@ -1,5 +1,3 @@
-// 4 Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.// 4 Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.1.What are the differences between mutating array methods and non-mutation array methods in JavaScript. List 5 array methods that fall under each of them.
-
 ### Mutating array method in context of JavaScript arrays is basically changing the array itself instead of returning a new array with the new changes.
 
 - copyWithin()
@@ -39,3 +37,11 @@
   return fruit;
   }
   ### Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.
+- e.g., max([4, 5, 10, -2]) // maximum value is 10
+
+### Write a function called valTimesIndex which accepts an array of numbers and returns a new array with each value multiplied by the index it is at in the array:
+
+- e.g.,
+
+- valTimesIndex([1,2,3]) // [0,2,6]
+- valTimesIndex([5,10,15]) // [0,10,30]
