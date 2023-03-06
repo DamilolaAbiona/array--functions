@@ -1,4 +1,4 @@
-1.What are the differences between mutating array methods and non-mutation array methods in JavaScript. List 5 array methods that fall under each of them.
+// 4 Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.// 4 Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.1.What are the differences between mutating array methods and non-mutation array methods in JavaScript. List 5 array methods that fall under each of them.
 
 ### Mutating array method in context of JavaScript arrays is basically changing the array itself instead of returning a new array with the new changes.
 
@@ -38,4 +38,4 @@
   fruit[2] = "orange";
   return fruit;
   }
-  ### 
+  ### Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.
