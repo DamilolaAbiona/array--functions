@@ -29,4 +29,19 @@
 
 
 */ 
-// 2. 
+// 2. ### Here is an array of languages: ["C#", ‘JavaScript’, ‘Ruby’, ‘PHP’, ‘Python’]. Perform this operation on them
+
+// - Add ‘Kotlin’ to the end of the array
+// - Add ‘Java’ after ‘Ruby’
+// - Remove the first item in the array
+// - Add ’Scala’ and ‘Swift’ to the beginning of the array
+// - Replace ‘PHP’ with ‘Go’ and ‘Rust’
+let arrayOfLanguages = ["C#", "JavaScript", "Ruby","PHP", "Python"]
+arrayOfLanguages.push("Kotlin")
+console.log(arrayOfLanguages);
+let removeFirstItem = arrayOfLanguages.shift();
+console.log(removeFirstItem);
+arrayOfLanguages.unshift("Scala", "Swift")
+console.log(arrayOfLanguages)
+arrayOfLanguages.splice(4, 1, "Go", "Rust")
+console.log(arrayOfLanguages)
