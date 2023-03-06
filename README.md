@@ -23,7 +23,7 @@
 - array.toString()
 - array.toLocaleString().
 
-2. Here is an array of languages: ["C#", ‘JavaScript’, ‘Ruby’, ‘PHP’, ‘Python’]. Perform this operation on them
+### Here is an array of languages: ["C#", ‘JavaScript’, ‘Ruby’, ‘PHP’, ‘Python’]. Perform this operation on them
 
 - Add ‘Kotlin’ to the end of the array
 - Add ‘Java’ after ‘Ruby’
