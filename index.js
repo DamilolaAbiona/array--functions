@@ -61,3 +61,15 @@ let fruit = ['apple', 'mango', 'banana'];
   let futa = changeFruit(fruit)
   console.log(futa)
 // Output =  [ 'apple', 'mango', 'orange' ]
+// 4 Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.
+let arr = [4, 5, 10, -2]
+function findLargestNum(arr) {
+let largestNum = 0
+for ( i = 0; i < arr.length; i++) {
+if ( arr[i] > largestNum )
+{largestNum = arr[i]
+}
+}
+return largestNum
+}
+console.log(findLargestNum(arr))
